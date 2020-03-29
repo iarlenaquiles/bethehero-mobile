@@ -21,56 +21,27 @@ export default function Incidents() {
         Escolha um dos casos abaixo e salve o dia.
       </Text>
 
-      <FlatList />
-      <View style={style.incidentList}>
-        <View style={style.incident}>
-          <Text style={style.incidentProperty}>ONG:</Text>
-          <Text style={style.incidentValue}>APAD</Text>
+      <FlatList
+        style={style.incidentList}
+        data={[1, 2, 3]}
+        renderItem={() => (
+          <View style={style.incident}>
+            <Text style={style.incidentProperty}>ONG:</Text>
+            <Text style={style.incidentValue}>APAD</Text>
 
-          <Text style={style.incidentProperty}>CASO:</Text>
-          <Text style={style.incidentValue}>cadelinha atropelada</Text>
+            <Text style={style.incidentProperty}>CASO:</Text>
+            <Text style={style.incidentValue}>cadelinha atropelada</Text>
 
-          <Text style={style.incidentProperty}>VALOR:</Text>
-          <Text style={style.incidentValue}>R$ 120,00</Text>
+            <Text style={style.incidentProperty}>VALOR:</Text>
+            <Text style={style.incidentValue}>R$ 120,00</Text>
 
-          <TouchableOpacity style={styles.detailsButton} onPress={() => {}}>
-            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-            <Feather name="arrow-right" size={16} color="#e02041" />
-          </TouchableOpacity>
-        </View>
-
-        <View style={style.incident}>
-          <Text style={style.incidentProperty}>ONG:</Text>
-          <Text style={style.incidentValue}>APAD</Text>
-
-          <Text style={style.incidentProperty}>CASO:</Text>
-          <Text style={style.incidentValue}>cadelinha atropelada</Text>
-
-          <Text style={style.incidentProperty}>VALOR:</Text>
-          <Text style={style.incidentValue}>R$ 120,00</Text>
-
-          <TouchableOpacity style={styles.detailsButton} onPress={() => {}}>
-            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-            <Feather name="arrow-right" size={16} color="#e02041" />
-          </TouchableOpacity>
-        </View>
-
-        <View style={style.incident}>
-          <Text style={style.incidentProperty}>ONG:</Text>
-          <Text style={style.incidentValue}>APAD</Text>
-
-          <Text style={style.incidentProperty}>CASO:</Text>
-          <Text style={style.incidentValue}>cadelinha atropelada</Text>
-
-          <Text style={style.incidentProperty}>VALOR:</Text>
-          <Text style={style.incidentValue}>R$ 120,00</Text>
-
-          <TouchableOpacity style={styles.detailsButton} onPress={() => {}}>
-            <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
-            <Feather name="arrow-right" size={16} color="#e02041" />
-          </TouchableOpacity>
-        </View>
-      </View>
+            <TouchableOpacity style={styles.detailsButton} onPress={() => {}}>
+              <Text style={styles.detailsButtonText}>Ver mais detalhes</Text>
+              <Feather name="arrow-right" size={16} color="#e02041" />
+            </TouchableOpacity>
+          </View>
+        )}
+      />
     </View>
   );
 }
