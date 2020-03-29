@@ -1,3 +1,5 @@
+import React from "react";
+
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -9,8 +11,8 @@ import Detail from "./pages/Detail";
 export default function Routes() {
   return (
     <NavigationContainer>
-      <AppStack.Screen component={Incidents} />
-      <AppStack.Screen component={Detail} />
+      <AppStack.Screen name="Incidents" component={Incidents} />
+      <AppStack.Screen name="Details" component={Detail} />
     </NavigationContainer>
   );
 }
