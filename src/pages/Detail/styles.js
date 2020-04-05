@@ -23,7 +23,7 @@ export default StyleSheet.create({
   },
 
   incidentProperty: {
-    fontsize: 12,
+    fontSize: 12,
     color: "#41414d",
     fontWeight: "bold",
     marginTop: 24
@@ -31,7 +31,7 @@ export default StyleSheet.create({
 
   incidentValue: {
     marginTop: 8,
-    fontsize: 15,
+    fontSize: 15,
     color: "#737380"
   },
 
@@ -45,13 +45,13 @@ export default StyleSheet.create({
 
   heroTitle: {
     color: "#13131a",
-    fontsize: 20,
+    fontSize: 20,
     fontWeight: "bold",
     lineHeight: 30
   },
 
   heroDescription: {
-    fontsize: 15,
+    fontSize: 15,
     color: "#737380",
     marginTop: 16
   },
@@ -73,7 +73,7 @@ export default StyleSheet.create({
 
   actionText: {
     color: "#fff",
-    fontsize: 15,
+    fontSize: 15,
     fontWeight: "bold"
   }
 });
