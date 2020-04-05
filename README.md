@@ -1,15 +1,14 @@
 # :computer: Aplicação Mobile em React Native para mostrar os casos das ONGs oa herois
 
-![Cena 01](image-01.jpeg)
+<img src="image-01.jpeg" width="360" height="640">
 
-![Cena 01](image-02.jpeg)
+<img src="image-02.jpeg" width="360" height="640">
 
-![Cena 01](image-03.jpeg)
+<img src="image-03.jpeg" width="360" height="640">
 
-![Cena 01](image-04.jpeg)
+<img src="image-04.jpeg" width="360" height="640">
 
-![Cena 01](image-05.jpeg)
-
+<img src="image-05.jpeg" width="400" height="640">
 
 ## Tecnologias
 
