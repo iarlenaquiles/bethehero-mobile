@@ -49,14 +49,14 @@ export default StyleSheet.create({
   },
 
   incidentProperty: {
-    fontsize: 12,
+    fontSize: 12,
     color: "#41414d",
     fontWeight: "bold"
   },
 
   incidentValue: {
     marginTop: 8,
-    fontsize: 15,
+    fontSize: 15,
     marginBottom: 24,
     color: "#737380"
   },
@@ -69,7 +69,7 @@ export default StyleSheet.create({
 
   detailsButtonText: {
     color: "#e02041",
-    fontsize: 15,
+    fontSize: 15,
     fontWeight: "bold"
   }
 });
